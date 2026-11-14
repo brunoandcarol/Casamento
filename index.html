@@ -3180,13 +3180,13 @@ const stamp=d=>{if(!d)return"";const[y,m,dd]=d.split("-");return "'"+y.slice(2)+
     hero.classList.add("polaroid");
     const st=hero.querySelector(".stack");
     const pol=(f,cls)=>{const d=document.createElement("div");d.className="pol "+cls;d.appendChild(mk(photoBy(f).src,true));return d};
-    st.appendChild(pol("p01","a"));
+    st.appendChild(pol("p07","a"));
     const ix=document.createElement("div"); ix.className="index";
     ix.innerHTML='<div class="ih"><span>BRUNO &amp; CAROLIN</span><span>2024 → 2026</span></div><div class="ig"></div>';
     const g=ix.querySelector(".ig");
     PHOTOS.slice(0,12).forEach((p,i)=>{const fg=document.createElement("figure");fg.appendChild(mk(p.src,true));const c=document.createElement("figcaption");c.textContent=(i+1)+"A";fg.appendChild(c);g.appendChild(fg)});
     st.appendChild(ix);
-    st.appendChild(pol("p02","b"));
+    st.appendChild(pol("p08","b"));
   }
   const m=document.getElementById("masonry");
   const rot=[-2.2,1.6,-1,2.4,-1.8,0.8,-2.6,1.2,-0.6,2,-1.4,1.8,-2];
