@@ -1,0 +1,20 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Bruno & Carolin//Wedding//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:bruno-carolin-wedding-20270129@brunoecarolin
+DTSTAMP:20261112T120000Z
+DTSTART:20270129T180000Z
+DTEND:20270130T020000Z
+SUMMARY:Casamento Bruno & Carolin
+LOCATION:Rua das Papoulas 5\, Itacoatiara\, Niterói - RJ\, Brasil
+DESCRIPTION:Hochzeit / Casamento / Wedding – Bruno & Carolin. Festa 15h · Cerimônia 16h30.
+BEGIN:VALARM
+TRIGGER:-P7D
+ACTION:DISPLAY
+DESCRIPTION:Casamento Bruno & Carolin
+END:VALARM
+END:VEVENT
+END:VCALENDAR
